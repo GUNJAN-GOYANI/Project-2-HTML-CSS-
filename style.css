@@ -44,8 +44,12 @@
 }
 #logo img{
 
-    height: 56px;
-    margin: 34px 45px;
+    height: 100px;
+    width: 120px;
+    margin: 10px 20px;
+}
+#logo img:hover{
+    transform: scale(1.4) rotate(2deg);
 }
 #home{
     display: flex;
@@ -106,6 +110,9 @@
     margin: auto;
     display: block;
     padding-top: 20px;
+}
+#services .box img:hover{
+    transform: scale(1.1);
 }
 
 /*client section*/
